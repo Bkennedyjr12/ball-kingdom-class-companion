@@ -1,0 +1,18 @@
+{
+  "name": "Inspector's Field Notes",
+  "short_name": "Field Notes",
+  "description": "An offline field notebook and home inspection study guide.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#172F38",
+  "background_color": "#FBFCF8",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Search the guide", "short_name": "Library", "url": "/library", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Capture a field note", "short_name": "Capture", "url": "/capture", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
